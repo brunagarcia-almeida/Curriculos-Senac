@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #000149;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(0, 195, 255);
+}
+
+header {
+    background-color: #000000;
+    color: #45caffce;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 195, 255);
+    border-radius: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000ce;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 195, 255);
+}
+
+.footer {
+    background-color: #000000;
+    color: #45caffce;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 195, 255);
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: rgb(0, 195, 255)
+}
+
+h2, h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    color: rgb(0, 195, 255)
+}
+
+li {
+    padding: 5px 0;
+    color: rgb(0, 195, 255)
+}
+
+p {
+    color: rgb(0, 195, 255)
+}
+
+img {
+    border-radius: 100px;
+    max-width: 400px;
+    height: auto;
+    border: 4px solid rgb(0, 195, 255);  
+    margin: 0 auto;
+    display: block;
+}
+
+button[type="submit"] {
+    background-color: #000000; 
+    color: rgb(0, 195, 255) ; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.4s ease; 
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    section {
+        flex-direction: column; 
+    }
+    .img-container { 
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    section {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    img {
+      max-width: 50%; 
+  }
+} 

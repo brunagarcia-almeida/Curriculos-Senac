@@ -1,0 +1,167 @@
+body{
+  background-color: #010303;
+  background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+ 
+.nav{
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.nav-underline {
+display: flex;
+justify-content: center;
+}
+ 
+.nav-item {
+font-size: 140%;
+margin-top: 15px;
+}
+ 
+.nav-link {
+color: white;
+}
+ 
+.nav-link.active {
+margin-left: 0;
+}
+ 
+.nav-underline .nav-link.active{
+  color:#0d6efd;
+}
+ 
+.nav-item{
+  font-size: 140%;
+  margin-top: 15px;
+}
+ 
+.header-bg{
+opacity: 90%;
+  background-color: #0d6efd;
+  margin-top: 50px;
+}
+ 
+.titulos{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;  
+  background-color: #0d6efd;
+  color: rgb(255, 255, 255);
+ 
+}
+ 
+.descrição{
+  font-size: 210%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+ 
+.descrição-formação{
+  font-size: 210%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+ text-align: center;
+}
+ 
+.container {
+color: white;
+}
+ 
+.progress {
+width: 100%;
+max-width: 500px;
+margin: 0 auto;
+}
+ 
+.progress-bar {
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 5px;
+  }
+ 
+.HTML, .CSS, .JS, .IG {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  margin-top: 5px;
+}
+ 
+.objetivo-profissional{
+font-size: 210%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+ 
+.descrição-objetivo{
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+ 
+.sobremim{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;  
+  background-color: #0d6efd;
+}
+ 
+.descrição-sobremim{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 196.42%;
+  justify-content: center;
+}
+ 
+p {
+  margin: 8px;
+}
+ 
+.rounded-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  }
+ 
+.container{
+color: white;
+}
+ 
+.row {
+--bs-gutter-x: 0;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+margin-top: calc(-1* var(--bs-gutter-y));
+margin-right: calc(-.5* var(--bs-gutter-x));
+margin-left: calc(-.5* var(--bs-gutter-x));
+}
+ 
+.h4docolegio{
+margin-left: 50px;
+}
+ 
+.cariacroca{
+margin-left: 110px;
+}
+ 
+.contant-container{
+opacity: 100%;
+background-color:#0d6efd;
+color: white;
+}
+ 
+.ex{
+  color: white;
+}

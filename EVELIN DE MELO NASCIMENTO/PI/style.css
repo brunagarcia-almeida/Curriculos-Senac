@@ -1,0 +1,50 @@
+.bemvindo {
+    font-family: cursive;
+}
+h2 {
+    color: blueviolet;
+    text-transform: uppercase;
+}
+a {
+    text-decoration-style: wavy;
+    text-decoration-color: magenta;
+}
+.progress-html{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    background-color: darkviolet;
+    display: flex;
+}
+.progress-html::before {
+    content: "";
+    width: 40%;
+    background-color: beige
+}
+.progress-css{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    background-color: darkviolet;
+    display: flex;
+}
+.progress-css::before{
+    content: "";
+    width: 30%;
+    background-color: beige
+}
+.progress-javascript{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    background-color: darkviolet;
+    display: flex;
+}
+.progress-javascript::before{
+    content:"";
+    width: 0%;
+    background-color: beige;
+}
+.formacao {
+    color: blueviolet;
+}

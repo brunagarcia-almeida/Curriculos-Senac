@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #fff;
+}
+
+.logo{
+width: 100px;
+height: 100%;
+border: 3px solid #fff;
+border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    color: firebrick;
+}
+
+#home {
+    margin: 5px;
+    padding: 100px;
+    background-color: red;
+}
+
+.color {
+        background-color: red;
+    }
+
+nav{
+    text-align: center;
+
+}
+
+.galeria{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+}
+
+.progressos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.card-title, .card-text{
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 0.3em;
+    height: 0.3em;
+    overflow-x: none;
+}
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 0.3em;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    background: -webkit-linear-gradient(to bottom, #5785e3b3, #4e1ce69e);
+    background: linear-gradient(to bottom, #5785e3b3, #4e1ce69e);
+    border-radius: 0.3em;
+}
+
+
+
+

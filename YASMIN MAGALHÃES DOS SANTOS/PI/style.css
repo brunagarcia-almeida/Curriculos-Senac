@@ -1,0 +1,72 @@
+.progress-html{
+  width: 40%;
+  height: 30px;
+  padding: 5px;
+  background-color: MediumVioletRed;
+  display: flex;
+}
+.progress-html::before {
+  content: "";
+  width: 50%;
+  background-color: LightPink;
+}
+.progress-css{
+  width: 40%;
+  height: 30px;
+  padding: 5px;
+  background-color: MediumVioletRed;
+  display: flex;
+}
+.progress-css::before{
+  content: "";
+  width: 45%;
+  background-color: LightPink;
+}
+.progress-javascript{
+  width: 40%;
+  height: 30px;
+  padding: 5px;
+  background-color: MediumVioletRed;
+  display: flex;
+}
+.progress-javascript::before{
+  content:"";
+  width: 0%;
+  background-color: LightPink;
+}
+  
+
+.banner {
+  background-image: url("./img/asfalt--luz--1920x1080.png");
+}
+
+.perfil {
+  border-radius: 80%;
+}
+
+p{
+  text-align: center;
+ } 
+h1{
+  text-align: center;
+ } 
+h3{
+  text-align: center;
+ } 
+h2{
+  text-align: center;
+ } 
+
+h5{
+  text-align: justify;
+}
+h4{
+  text-align: justify;
+}
+
+.nav-link{
+  color: MediumVioletRed;
+}
+.redonda {
+  border-radius: 50%;
+}

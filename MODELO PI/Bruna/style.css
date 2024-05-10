@@ -1,0 +1,162 @@
+html, body {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.banner {
+    background-image: url("./img/brick-wall-1920x1080.png");
+}
+
+.imagens {
+    margin-top: 10px;
+}
+
+p,
+li {
+    text-align: justify;
+}
+
+.cursos {
+    margin: 10px 5px 0 5px;
+}
+
+.progresso-html {
+    height: 30px;
+    padding: 5px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.progresso-html::before {
+    text-align: center;
+    content: "95%";
+    width: 95%;
+    background-color: rgb(228, 116, 180);
+}
+
+.progresso-css {
+    height: 30px;
+    padding: 5px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.progresso-css::before {
+    text-align: center;
+    content: "90%";
+    width: 90%;
+    background-color: rgb(228, 116, 180);
+}
+
+.progresso-js {
+    height: 30px;
+    padding: 5px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.progresso-js::before {
+    text-align: center;
+    content: "75%";
+    width: 75%;
+    background-color: rgb(228, 116, 180);
+}
+
+.progresso-java {
+    height: 30px;
+    padding: 5px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.progresso-java::before {
+    text-align: center;
+    content: "65%";
+    width: 65%;
+    background-color: rgb(228, 116, 180);
+}
+
+.progresso-node {
+    height: 30px;
+    padding: 5px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.progresso-node::before {
+    text-align: center;
+    content: "30%";
+    width: 30%;
+    background-color: rgb(228, 116, 180);
+}
+
+.progresso-sql {
+    height: 30px;
+    padding: 5px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.progresso-sql::before {
+    text-align: center;
+    content: "70%";
+    width: 70%;
+    background-color: rgb(228, 116, 180);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    transition: margin-top 250ms;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 1px solid black;
+}
+.btn:hover::after {
+    margin-top: -8px;
+}
+
+footer {
+    background-color: rgb(228, 116, 180);
+}
+
+@media only screen and (min-width: 576px) {
+    .img-altura-fixa {
+        height: 345px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .img-altura-fixa {
+        height: 300px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .img-altura-fixa {
+        height: 368px !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .img-altura-fixa {
+        height: 430px !important;
+    }
+}

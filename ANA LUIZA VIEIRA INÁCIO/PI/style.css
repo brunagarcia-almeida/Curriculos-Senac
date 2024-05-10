@@ -1,0 +1,19 @@
+.progress-bar{
+    background-color: black; 
+}
+
+.banner {
+  background-image: url("./img/asfalt--dark--1920x1080.png");
+  }
+  .perfil{
+    border-radius: 50%;
+  }
+ .p{
+text-align: left;
+ }
+ footer{
+  text-align: center;
+ }
+.nav-link{
+  color: black;
+}

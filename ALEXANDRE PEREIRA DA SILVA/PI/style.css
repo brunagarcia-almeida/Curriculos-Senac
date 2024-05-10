@@ -1,0 +1,57 @@
+p {
+    text-align:justify;
+}
+header{
+    text-align:justify;
+}
+section{
+    text-align:justify;
+}
+.progress-html{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    background-color: BurlyWood;
+    display: flex;
+}
+.progress-html::before {
+    content: "";
+    width: 60%;
+    background-color: beige
+}
+.progress-css{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    background-color: BurlyWood;
+    display: flex;
+}
+.progress-css::before{
+    content: "";
+    width: 30%;
+    background-color: beige
+}
+.progress-javascript{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    background-color: BurlyWood;
+    display: flex;
+}
+.progress-javascript::before{
+    content:"";
+    width: 0%;
+    background-color: beige;
+}
+.formacao {
+    color: BurlyWood;
+}
+#estilo{
+    text-decoration: underline;
+}
+
+
+
+
+
+

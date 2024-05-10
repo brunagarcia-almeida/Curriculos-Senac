@@ -1,0 +1,41 @@
+body {
+    color: rgb(109, 72, 14);
+    background-color: beige;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+.card {
+    color: rgb(109, 72, 14);
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+}
+ 
+.container {
+    color: rgb(109, 72, 14);
+    background-color: beige;
+    text-align: justify;
+}
+
+.imagem-container {
+    border-radius: 48%;
+    border-top: 40%;
+    width:min-content ;
+    align-items: center;
+}
+ 
+.content-container{
+    background-color: rgb(109, 72, 14);
+    color: beige;
+    margin-right: 25px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.card-img-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
